@@ -36,7 +36,7 @@ public class ConvertitoreValute {
                 return i;
             }
         }
-        return -1; // Valuta non trovata
+        return -1;
     }
 }
 

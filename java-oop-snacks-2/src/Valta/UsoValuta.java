@@ -20,9 +20,7 @@ public class UsoValuta {
 
         // Conversione
         double risultato = converti(valutaDa, valutaA, importo);
+        System.out.println("Importo convertito: " + risultato);
 
-        if (risultato != -1) {
-            System.out.println("Importo convertito: " + risultato);
-        }
     }
 }
