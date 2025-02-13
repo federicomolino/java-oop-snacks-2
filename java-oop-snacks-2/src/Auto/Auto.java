@@ -1,5 +1,7 @@
 package Auto;
 
+import java.util.Random;
+
 public class Auto {
 
      private final int numeroTelaio;
@@ -12,7 +14,10 @@ public class Auto {
          // incremento il contatore
          contatoreAuto++;
          // assegno il numero del talio
-         this.numeroTelaio = contatoreAuto * 100 / 2;
+         //this.numeroTelaio = contatoreAuto * 100 / 2;
+         Random ran = new Random();
+         int max = 5000;
+         this.numeroTelaio = ran.nextInt(max);
          this.modello = modello;
      }
 
